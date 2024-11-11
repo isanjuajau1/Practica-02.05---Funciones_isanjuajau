@@ -1,0 +1,21 @@
+def decimal_a_binario(n):
+    """Función que convierte un número decimal en binario.
+    
+    Parámetros:
+        - n: Número decimal.
+    
+    Salida:
+        Representación binaria del número.
+    """
+    return bin(n)[2:]
+
+def binario_a_decimal(binario):
+    """Función que convierte un número binario en decimal.
+    
+    Parámetros:
+        - binario: Cadena con el número binario.
+    
+    Salida:
+        Número decimal equivalente.
+    """
+    return int(binario, 2)
