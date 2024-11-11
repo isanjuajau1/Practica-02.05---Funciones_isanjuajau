@@ -1,0 +1,13 @@
+def factorial_iterativo(n):
+    """Función que calcula el factorial de un número entero positivo de forma iterativa.
+    
+    Parámetros:
+        - n: Número entero positivo.
+    
+    Salida:
+        El factorial de n.
+    """
+    resultado = 1
+    for i in range(1, n + 1):
+        resultado *= i
+    return resultado
