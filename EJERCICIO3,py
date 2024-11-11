@@ -1,0 +1,24 @@
+import math
+
+def area_circulo(radio):
+    """Función que calcula el área de un círculo.
+    
+    Parámetros:
+        - radio: Radio del círculo.
+    
+    Salida:
+        Área del círculo.
+    """
+    return math.pi * radio ** 2
+
+def volumen_cilindro(radio, altura):
+    """Función que calcula el volumen de un cilindro usando la función de área de un círculo.
+    
+    Parámetros:
+        - radio: Radio de la base del cilindro.
+        - altura: Altura del cilindro.
+    
+    Salida:
+        Volumen del cilindro.
+    """
+    return area_circulo(radio) * altura
