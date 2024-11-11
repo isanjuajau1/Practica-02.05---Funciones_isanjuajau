@@ -1,0 +1,10 @@
+def valores_al_cuadrado(numeros):
+    """Función que devuelve una lista con los valores al cuadrado de los elementos de una lista.
+    
+    Parámetros:
+        - numeros: Lista de números.
+    
+    Salida:
+        Lista de números al cuadrado.
+    """
+    return [x ** 2 for x in numeros]
